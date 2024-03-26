@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SSSP-nearby-locations</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap" rel="stylesheet">
+	<link href='Groupwork.css' rel='stylesheet'>
+	<style>
+		.gotop{
+  				margin-top: 200px;
+ 				width:100%;
+   				display: flex;
+   				height:100px;
+    			border-top:2px solid #CB9F34;
+    			border-bottom: 2px solid #CB9F34;
+    			align-items: center;
+    			justify-content: center;
+    			background-color: #A32C21;}
+		.wholediv{
+				width:85%;
+			}
+		.dropdown{
+			width:33%;			
+		}
+		.dropdown:hover{
+			z-index: 1;
+		}
+
+		.div1{
+       		width:100%;
+       		height:300px;
+			transition:width 0.5s ,height 0.5s;
+			background-size:cover;
+			border:5px solid white;
+        	border-radius:15px;  	
+		}
+		.div2{
+			width:100%;
+       		height:100%;
+			transition:width 0.5s ,height 0.5s;
+			background-size:cover;
+			border:5px solid #F5E00F;
+        	border-radius:15px;
+		}
+		.div1:hover{			
+			width:120%;
+		}
+		.div2:hover{
+			height:120%;
+			width:120%;		
+		}
+		.design{
+			width:100%;
+   		 	display:inline-flex;	
+   		 	margin-top: 80px;
+   		 	background-color:#F9F3E6;
+		}
+		.design2{
+			width:100%;
+			height:300px;     		 	
+   		 	display:flex;
+   		 	margin-top:800px;	
+		}
+		#item1{
+			
+			background-image:url(walmart.jpg);
+		
+		}
+		#item2{
+			
+			background-image:url(foodbasic.jpg);
+			
+		}
+			#item3{
+			
+			background-image:url(dollarama.jpg);
+			
+		}
+			#item4{
+
+			background-image:url(phoconbo.jpg);
+		}
+			#item5{
+			
+			background-image:url(mac.jpg);
+		}
+			#item6{
+				
+				background-image:url(nova.jpg);
+			}
+			.div1:hover{
+				border-color:#CB9F34;
+				box-shadow:5px 5px 5px black;
+			}
+			.div2:hover{
+				border-color:limegreen;
+				box-shadow:10px 10px 10px rebeccapurple;
+			}
+			.gotop{
+  				margin-top: 200px;
+  				width:100%;
+   				 display: flex;
+   				 height:100px;
+   				 border-top:2px solid #CB9F34;
+   			 	border-bottom: 2px solid #CB9F34;
+   				align-items: center;
+    			justify-content: center;
+    			background-color: #A32C21;}
+   			 #gtbt{
+ 			 font-size: 2em;
+  			font-weight: 700;
+  			text-decoration: none; 
+  			color:white;
+			}
+			.gotop:hover{
+  			background-color: #CB9F34;
+			}
+
+
+			.dropdown-content{
+				display:none;
+				position:absolute;
+				z-index:1;
+
+			}
+			.dropdown-content-text{
+				background-color:#F9F3E6
+			}
+			.dropdown:hover .dropdown-content{
+				display:block;
+				text-align: left;
+
+							}
+			.justifyer{
+				margin-left:20px;
+			}
+
+			.tfz{
+				display: inline-flex;
+				width:100%;
+				margin-top: 40px;
+				
+
+			}
+			.tf1{
+				width:33.4%;
+				background-color:#F9F3E6;
+				padding:10px;
+
+			}
+			.tf1texthead{
+				font-size:3em;
+        		font-family: times new roman ;
+        		text-align: left;
+        		margin-left:20px;
+			}
+			.tf1textcont{
+        		font-size:1.5em;  
+        		text-align: left;   
+        		margin-left:20px; 
+        		margin-top:40px;		
+			}
+
+	</style>
+</head>
+
+
+<body>
+<center>
+	<nav class="SSSP">
+	<ul class="SSP">
+		<li class="SP"><a class="P" href="index.html">Home</a ></li>
+		<li class="SP"><a class="P" href="uniform.html">Uniform</a >
+			<ul class="SSP">
+				<li class="SP"><a class="P" href="#">Exchange</a ></li>
+			</ul>
+		</li>
+		<li class="SP"><a class="P" href="SSSP-nearby-locations.html">Map</a >
+		</li>
+		<li class="SP"><a class="P" href="NM.html">Suggestion</a ></li>
+	</ul>
+  </nav>
+</center>
+
+<div class='userface'>
+	<a href='#gt'>
+		<div class='gotopbt'>
+		</div>
+	</a>
+</div>
+
+	<div class='toppage'id='gt'>
+					<div class='navi2'>
+						<div class='navi2navi'>
+							<a href="index.html" style='color:lightgray;'>Homepage </a>
+							<a>/</a>
+							<a href='SSSP-nearby-locations.html' style='color:black;'> Nearby Locations</a>
+						</div>
+							<div class="navi2head">
+								<a style='font-size: 4em; font-weight: 700;'>
+								Welcome to SuOn Uniform Department!
+								</a>
+						
+							</div>
+							<center>
+							<div class='navi2content'>
+								<a style='font-size: 1.5em; font-weight: 300;'>
+									In the SuOn Students service Platform:
+									<br>
+									-Responding to our classmates's feedback is our duty
+									<br>
+									-Our original aspiration is to help students integrate the foreign life.
+								</a>
+
+
+							</div>
+							<div class='navi2intro'>
+								<a>Here you can apply new uniform</a>
+								</div>
+							<a style='text-decoration:none'href="https://docs.google.com/forms/d/1RefNt-AzOhHJesR7t_HB_IpGTGfkqHx1P5DSV46FNUY/viewform?edit_requested=true">
+									<div class='divbt'>
+											Apply the Uniform Now
+									</div>
+							</a>
+						</center>
+				</div>
+			
+		</div>
+
+	<center>
+	<div class='wholediv'>
+		<div class='design'id='gt'>
+
+			<div class='dropdown'>
+					<div class='div1' id='item1'></div>
+				<div class='dropdown-content'>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5767.169494569188!2d-79.50628842488403!3d43.71917805984227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d040c915dfd1%3A0xc52e6efab1b04651!2sWalmart!5e0!3m2!1szh-CN!2sca!4v1711389489764!5m2!1szh-CN!2sca" width="647" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class='dropdown-content-text'>
+						<div class='justifyer'>
+							<p>Distance: 2KM</p>
+							<p>Service: ⭐⭐⭐</p>
+							<p>Price: ⭐⭐⭐</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			
+			<div class='dropdown'>
+					<div class='div1' id='item2'></div>
+				<div class='dropdown-content'>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1212.3462326168979!2d-79.5110115972739!3d43.72173823712494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b311b00848dc1%3A0xaace61b0b5068c3f!2sFood%20Basics!5e0!3m2!1sen!2sca!4v1711424184617!5m2!1sen!2sca" width="647" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class='dropdown-content-text'>
+						<div class='justifyer'>
+							<p>Distance: 2KM</p>
+							<p>Service: ⭐⭐⭐</p>
+							<p>Price: ⭐⭐⭐</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			
+			<div class='dropdown'>
+					<div class='div1' id='item3'></div>
+				<div class='dropdown-content'>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441.7576707033766!2d-79.51209321987932!3d43.72062018796115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3103837b8a25%3A0xeb2f2bf673c68225!2sDollarama!5e0!3m2!1sen!2sca!4v1711423439144!5m2!1sen!2sca" width="647" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class='dropdown-content-text'>
+						<div class='justifyer'>
+							<p>Distance: 1.9KM</p>
+							<p>Service: ⭐⭐</p>
+							<p>Price: ⭐⭐⭐⭐</p>
+
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>	
+
+		<div class='tfz'>
+			<div class='tf1'>
+				<div class='tf1text'>
+					<div class='tf1texthead'>
+						Walmart
+					</div>
+					<div class='tf1textcont'>
+						- Walmart has enriched kinds of manufactured food. It is also one of the bigget supermarket near SuOn academy. <br>
+						- It has abundant of food, and some cheap necessities with fair quality.
+					</div>
+				</div>
+			</div>
+			<div class='tf1'>
+				<div class='tf1text'>
+					<div class='tf1texthead'>
+						Food Basics
+					</div>
+					<div class='tf1textcont'>
+						- Compare to Walmart, The Food Basics has fresh veggies, fruits, and meats.  <br>
+						- It is the best place for people who likes cook.
+					</div>
+				</div>
+			</div>
+			<div class='tf1'>
+				<div class='tf1text'>
+					<div class='tf1texthead'>
+						Dollarama
+					</div>
+					<div class='tf1textcont'>
+						-  Dollarama was famous for its low-price home supplies. <br>
+						- From forks to the sponges, even the pumpkin lanterns. Dollarama is the best place for holiday and home supplies.
+					</div>
+				</div>
+			</div>
+		</div>	
+
+
+
+<div class='wholedesign'>
+		<div class='design'id='gt'>
+
+
+
+			<div class='dropdown'>
+					<div class='div1' id='item4'></div>
+				<div class='dropdown-content'>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.478444414603!2d-79.51166862361279!3d43.719148281041974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3103045797e1%3A0x99de3a00196e4321!2sPho%20con%20Bo!5e0!3m2!1szh-CN!2sca!4v1711467978215!5m2!1szh-CN!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class='dropdown-content-text'>
+						<div class='justifyer'>
+							<p>Distance: 2KM</p>
+							<p>Service: ⭐⭐⭐</p>
+							<p>Price: ⭐⭐⭐⭐($$)</p>
+							<p>Taste: ⭐⭐⭐⭐</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			
+			<div class='dropdown'>
+					<div class='div1' id='item5'></div>
+				<div class='dropdown-content'>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.2449808680703!2d-79.50999908095727!3d43.71413922546059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b311b1af1ef37%3A0x99c8d9716b90992!2zTWNEb25hbGTigJlz!5e0!3m2!1szh-CN!2sca!4v1711468188704!5m2!1szh-CN!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class='dropdown-content-text'>
+						<div class='justifyer'>
+							<p>Distance: 1.2KM</p>
+							<p>Service: ⭐⭐</p>
+							<p>Price: ⭐⭐⭐⭐($)</p>
+							<p>Taste: ⭐⭐⭐</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			
+			<div class='dropdown'>
+					<div class='div1' id='item6'></div>
+				<div class='dropdown-content'>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1400.6753375245546!2d-79.51096596413193!3d43.722258414694764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3106aefa062b%3A0xdc66080eb469c1ab!2sPizza%20Nova!5e0!3m2!1szh-CN!2sca!4v1711468380153!5m2!1szh-CN!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class='dropdown-content-text'>
+						<div class='justifyer'>
+							<p>Distance: 2KM</p>
+							<p>Service: ⭐⭐</p>
+							<p>Price: ⭐⭐⭐⭐($)</p>
+							<p>Taste: ⭐⭐⭐</p>
+
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>	
+
+		<div class='tfz'>
+			<div class='tf1'>
+				<div class='tf1text'>
+					<div class='tf1texthead'>
+						Pho con bo
+					</div>
+					<div class='tf1textcont'>
+						- Pho con bo is a vietnamese beef noodle soup and many vietnamese foods.<br>
+						- Compare to other local vietnamese beef noodle soup, it is the best one.
+					</div>
+				</div>
+			</div>
+			<div class='tf1'>
+				<div class='tf1text'>
+					<div class='tf1texthead'>
+						Mcdonald's
+					</div>
+					<div class='tf1textcont'>
+						- The Mcdonald's has great food, cheap, and fast. <br>
+						- Better than KFC.
+					</div>
+				</div>
+			</div>
+			<div class='tf1'>
+				<div class='tf1text'>
+					<div class='tf1texthead'>
+						Pizza Nova
+					</div>
+					<div class='tf1textcont'>
+						-  Pizza Nova is a pizza restaurant, similar to Pizza Pizza<br>
+						- Compare to Pizza Pizza, Pizza Nova has distance advantage, since they often heated the pizza, eat in is better than togo.
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	</div>
+	</center>
+
+	<div class='gotop'>
+		<center><a href='#gt'id='gtbt'>Join us(Not ready yet)</a></center>
+	</div>
+
+	<div class='footer' class='fonts'>
+	<div class='footerlink'>
+		<div class='formpart1text1'>
+			<a>Applying form</a>
+		</div>
+
+		<div class='fontpart1text2'>
+			<a>Fill your information to apply</a>
+		</div>
+
+		<div class='fontpart1text3'>
+			<center><a style='color: white;'href='https://docs.google.com/forms/d/1RefNt-AzOhHJesR7t_HB_IpGTGfkqHx1P5DSV46FNUY/viewform?edit_requested=true'>Form link</a></center>
+		</div>
+	</div>
+
+	<center>
+		<div class='suonlogo'>
+			<img src='suonlogo.png'>
+		</div>
+	</center>
+
+	<div class='sitemap'>
+		<a class='decoration'href='index.html'>
+			<div class='sitemaptext'id='sitemap1'>
+			Homepage
+			</div>
+		</a>
+		<a class='decoration'href='uniform.html'>
+			<div class='sitemaptext'id='sitemap2'>
+			Uniform
+			</div>
+		</a>
+		<a class='decoration'href='SSSP-nearby-locations'>	
+			<div class='sitemaptext'id='sitemap3'>
+			Nearby stores
+			</div>
+		</a>
+		<a class='decoration'href='NM.html'>
+			<div class='sitemaptext'id='sitemap4'>
+			Leave comment
+			</div>
+		</a>
+	</div>
+
+		<div class='contactinfo'>
+			<ul>
+				<li>		
+					<div class='contactinfotexts' style='margin-top:50px'>
+					<img style='margin-right:10px'src='mail.png' width='40px' height="40px">
+					<a>Email: huaji@gmail.com</a>
+				</div>
+				</li>
+				<li>
+					<div class='contactinfotexts'>
+					<img style='margin-right:10px'src='qq.png' width='40px' height="40px">
+					<a>QQ: suonxiaofubu</a>
+				</div>
+				</li>
+				<li>
+					<div class='contactinfotexts'>
+					<img style='margin-right:10px'src='apps-wechat.svg' width='40px' height="40px">
+					<a>Wechat:suonxiaofubu</a>
+				</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>
